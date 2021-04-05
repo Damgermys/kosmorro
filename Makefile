@@ -1,5 +1,7 @@
-.PHONY: test
+black:
+	pipenv run black kosmorro _kosmorro setup.py
 
+.PHONY: test
 test:
 	export LC_ALL=C.UTF-8; \
 	export LANG=C.UTF-8; \

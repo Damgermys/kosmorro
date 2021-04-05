@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION=$(grep -Eo '[0-9]+\.[0-9]+\.[0-9]+' kosmorrolib/version.py)
+VERSION=$(grep -Eo '[0-9]+\.[0-9]+\.[0-9]+' _kosmorro/__version__.py)
 PYTHON_BIN=$(command -v python)
 PIP_BIN=$(command -v pip)
 

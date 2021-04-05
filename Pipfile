@@ -4,17 +4,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-pylintfileheader = "*"
-pylint = "*"
 babel = "*"
-unittest-data-provider = "*"
-coveralls = "*"
+black = "*"
 
 [packages]
-skyfield = ">=1.32.0,<2.0.0"
 tabulate = "*"
-numpy = ">=1.17.0,<2.0.0"
 termcolor = "*"
+kosmorrolib = "*"
 python-dateutil = "*"
 
 [requires]
